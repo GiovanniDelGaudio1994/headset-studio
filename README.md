@@ -39,6 +39,12 @@ L'obiettivo non è sostituire software o firmware ufficiali, ma imparare a integ
 
 **Nota sulla versione:** la foto del prototipo e i video disponibili documentano momenti diversi dello sviluppo. La tabella non certifica l'ultima build: aggiornare i risultati solo dopo nuovi test.
 
+## 🎧 Dispositivi supportati e compatibilità futura
+
+**Attualmente testato:** Marshall Major III Bluetooth su macOS. Le funzionalità disponibili dipendono dalle informazioni e dai controlli che il sistema operativo espone per il dispositivo collegato.
+
+L'obiettivo futuro è estendere Headset Studio ad **altri modelli e produttori di cuffie Bluetooth**, offrendo una gestione di base dove tecnicamente possibile (stato di connessione, volume di sistema e batteria quando disponibile). Ogni nuovo modello sarà aggiunto all'elenco dei dispositivi verificati solo dopo test reali: **la compatibilità con altri headset non è ancora garantita**.
+
 ## 🎬 Video reali e presentazione
 
 - [Video di connessione](https://www.giovannidelgaudio.it/headset-studio-demo/assets/connection-demo.mp4)
@@ -81,15 +87,6 @@ La presenza pubblica di questo README **non concede automaticamente una licenza 
 ## ⚖️ Marchi e indipendenza
 
 **Headset Studio è un progetto personale indipendente, non ufficiale e non affiliato, approvato o sponsorizzato da Marshall Group.** Marshall e Major III sono citati esclusivamente per identificare il dispositivo impiegato nei test. I marchi appartengono ai rispettivi titolari.
-
-## 📣 Prima di condividere su LinkedIn
-
-- [ ] Aprire la pagina demo in una finestra privata e verificare link, video e immagini.
-- [ ] Assicurarsi che le funzioni definite *testate* siano davvero state provate nella build mostrata.
-- [ ] Distinguere la fotografia reale dai concept o dalle immagini promozionali.
-- [ ] Controllare che nelle immagini non compaiano credenziali, dati o dettagli riservati.
-- [ ] Evitare di chiamare *download* o *app installabile* una demo che è soltanto una presentazione web.
-- [ ] Verificare che il repository applicativo completo rimanga privato.
 
 ---
 
