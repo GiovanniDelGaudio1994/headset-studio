@@ -2,96 +2,95 @@
 
 # 🎧 Headset Studio
 
-### Bluetooth Headphone Companion
+### Un progetto personale nato da un'esigenza quotidiana
 
 **Flutter · Dart · macOS · Bluetooth · Desktop UI**
 
-Un'app desktop per la gestione delle cuffie Bluetooth, sviluppata e testata su macOS con **Marshall Major III**.
+[🌐 Demo, video e concept](https://www.giovannidelgaudio.it/headset-studio-demo/) · [💼 Portfolio](https://www.giovannidelgaudio.it/) · [📋 Roadmap](docs/RESTYLING.md)
 
-<a href="https://www.giovannidelgaudio.it/headset-studio-demo/"><strong>▶ Guarda i video e il mockup</strong></a>
-&nbsp;·&nbsp;
-<a href="https://www.giovannidelgaudio.it/"><strong>Portfolio</strong></a>
-&nbsp;·&nbsp;
-<a href="docs/RESTYLING.md"><strong>Roadmap</strong></a>
+<img src="https://raw.githubusercontent.com/GiovanniDelGaudio1994/giovanni-portfolio/main/portfolio/assets/projects/headset-studio-liquid-glass.webp" width="780" alt="Concept grafico Liquid Glass di Headset Studio" />
 
-<br/>
-
-<a href="https://www.giovannidelgaudio.it/headset-studio-demo/">
-<img src="https://raw.githubusercontent.com/GiovanniDelGaudio1994/giovanni-portfolio/main/portfolio/assets/projects/headset-studio-liquid-glass.webp" width="850" alt="Mockup originale Liquid Glass di Headset Studio: cuffie, connessione Bluetooth, batteria illustrativa e volume">
-</a>
-
-<sub>Mockup originale: visione grafica del prossimo restyling Liquid Glass; non è ancora una schermata della build Flutter attuale.</sub>
+<sub>Immagine illustrativa del design: non dimostra che ogni funzionalità raffigurata sia già implementata.</sub>
 
 </div>
 
 ---
 
-## Il progetto
+## 💡 Perché nasce
 
-**Headset Studio** nasce come companion desktop per dispositivi audio Bluetooth, con l'obiettivo di offrire informazioni utili, controllo delle funzioni disponibili sul sistema e un'interfaccia ordinata.
+Uso delle **Marshall Major III Bluetooth**, un modello non supportato dall'app ufficiale Marshall Bluetooth. Da qui è nata l'idea di sviluppare **Headset Studio**, un'applicazione desktop indipendente per visualizzare le informazioni rese disponibili da macOS sulle cuffie collegate e gestire alcune funzioni audio del computer.
 
-L'applicazione è in sviluppo. I test iniziali riguardano le cuffie **Marshall Major III Bluetooth** su **Mac**. Headset Studio è un progetto personale, **non ufficialmente affiliato a Marshall**.
+L'obiettivo non è sostituire software o firmware ufficiali, ma imparare a integrare una UI Flutter con le funzionalità del sistema operativo e costruire, per gradi, un companion Bluetooth utilizzabile.
 
-## Funzionalità e stato
+## ✅ Funzionalità: cosa è stato verificato e cosa no
 
-| Area | Stato | Dettagli |
-| :-- | :-- | :-- |
-| Avvio app macOS | ✅ Testato | Applicazione Flutter eseguita su Mac |
-| Rilevamento cuffie Bluetooth | ✅ Testato | Prima periferica: Major III |
-| Volume Mac | ✅ Testato | Controllo del volume di sistema |
-| Dashboard dispositivo | 🚧 In evoluzione | Interfaccia del prototipo disponibile nei video |
-| Batteria delle cuffie | 🔎 Da verificare | Il 90% nel mockup è illustrativo |
-| Firmware cuffie | 🔎 Da verificare | `0.0.0` nel mockup è un segnaposto |
-| Audio Lab / equalizzatore | 🗓️ Previsto | Non operativo nella preview |
-| Compatibilità Windows | 🗓️ Prevista | Non ancora verificata in una build Windows |
+| Funzionalità | Stato | Note |
+| --- | --- | --- |
+| Avvio dell'app Flutter su macOS | ✅ Testato | Prototipo eseguito su Mac |
+| Rilevamento delle Major III connesse | ✅ Testato | Test iniziali su un dispositivo reale |
+| Stato della connessione | ✅ Testato | Informazioni disponibili tramite macOS |
+| Controllo volume del Mac | ✅ Testato | Controllo del volume **di sistema**, non del firmware delle cuffie |
+| Dashboard Liquid Glass | 🚧 In evoluzione | Il design e la build reale possono differire |
+| Livello batteria e dati del dispositivo | 🔎 Da verificare per ogni modello | Non considerare i valori dei mockup come telemetria reale |
+| Audio Lab ed equalizzazione software | 🗓️ In roadmap | Fattibilità e limiti tecnici da testare |
+| Gestione ingresso/uscita audio | 🗓️ In roadmap | Dipende dalle API e dai permessi di macOS |
+| Modello cuffie 3D interattivo | 🗓️ In roadmap | Funzionalità visiva, non controllo hardware |
+| Compatibilità estesa e Windows | 🗓️ In valutazione | Nessuna compatibilità promessa finché non viene testata |
 
-## Video dimostrativi reali
+**Nota sulla versione:** la foto del prototipo e i video disponibili documentano momenti diversi dello sviluppo. La tabella non certifica l'ultima build: aggiornare i risultati solo dopo nuovi test.
 
-Le registrazioni mostrano la **precedente interfaccia scura dell'app Flutter su macOS**, non il restyling Liquid Glass.
+## 🎬 Video reali e presentazione
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://www.giovannidelgaudio.it/headset-studio-demo/assets/connection-demo.mp4">
-<img src="https://raw.githubusercontent.com/GiovanniDelGaudio1994/giovanni-portfolio/main/headset-studio-demo/assets/connection-demo-poster.webp" width="100%" alt="Anteprima registrazione breve Headset Studio">
-</a>
-<p><strong>01 · Connessione e dashboard</strong><br/>Video originale di circa 3 secondi.</p>
-<p><a href="https://www.giovannidelgaudio.it/headset-studio-demo/assets/connection-demo.mp4">▶ Guarda la registrazione</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://www.giovannidelgaudio.it/headset-studio-demo/assets/full-demo.mp4">
-<img src="https://raw.githubusercontent.com/GiovanniDelGaudio1994/giovanni-portfolio/main/headset-studio-demo/assets/full-demo-poster.webp" width="100%" alt="Anteprima demo completa di Headset Studio su macOS">
-</a>
-<p><strong>02 · Navigazione e volume</strong><br/>Registrazione originale di circa 36 secondi.</p>
-<p><a href="https://www.giovannidelgaudio.it/headset-studio-demo/assets/full-demo.mp4">▶ Guarda la registrazione</a></p>
-</td>
-</tr>
-</table>
+- [Video di connessione](https://www.giovannidelgaudio.it/headset-studio-demo/assets/connection-demo.mp4)
+- [Video di navigazione e volume](https://www.giovannidelgaudio.it/headset-studio-demo/assets/full-demo.mp4)
+- [Pagina pubblica con demo e concept](https://www.giovannidelgaudio.it/headset-studio-demo/)
 
-**[Apri la pagina dimostrativa completa sul sito](https://www.giovannidelgaudio.it/headset-studio-demo/)**
+I video pubblicati nel sito mostrano una **versione precedente dell'interfaccia**. La grafica Liquid Glass è un'evoluzione in corso: evitare di confondere un rendering, un prototipo web e una registrazione dell'applicazione nativa.
 
-## Evoluzione della UI
+## 🧭 Roadmap
 
-1. **Prototipo precedente** — tema scuro. Le due registrazioni video rappresentano il programma avviato su macOS.
-2. **Nuovo concept Liquid Glass** — palette luminosa azzurro/bianco/lilla, pannelli traslucidi, cuffie come elemento visivo centrale, widget per stato e volume.
-3. **Prossimo sviluppo** — tradurre il concept in widget Flutter mantenendo funzionanti le integrazioni già testate.
+### Fase 1 — Base tecnica
+- [x] Prototipo macOS avviabile
+- [x] Test di rilevamento delle cuffie connesse
+- [x] Test di controllo del volume di macOS
+- [ ] Verifica ripetibile di stabilità, errori e disconnessioni
 
-La [pagina del concept precedente](https://www.giovannidelgaudio.it/headset-studio-demo/legacy.html) è una **ricostruzione illustrativa**, distinta dai video originali.
+### Fase 2 — Esperienza desktop
+- [ ] Consolidare il restyling Liquid Glass
+- [ ] Migliorare feedback di connessione e stati di errore
+- [ ] Verificare il comportamento su diverse risoluzioni e versioni macOS
 
-## Documentazione
+### Fase 3 — Audio Lab
+- [ ] Studiare l'integrazione con le API audio native
+- [ ] Valutare equalizzazione software e profili personalizzati
+- [ ] Documentare chiaramente ciò che macOS consente e ciò che richiederebbe protocolli proprietari
 
-- [Roadmap tecnica e restyling](docs/RESTYLING.md)
-- [Portfolio ufficiale](https://www.giovannidelgaudio.it/)
-- [Scheda sintetica sul profilo GitHub](https://github.com/GiovanniDelGaudio1994/GiovanniDelGaudio1994/tree/main/projects/headset-studio)
+### Fase 4 — Espansione
+- [ ] Testare altri modelli di cuffie
+- [ ] Valutare una versione Windows
+- [ ] Preparare packaging e distribuzione soltanto dopo test e revisione di permessi e licenze
 
-## Codice e disponibilità
+## 🔒 Disponibilità del codice e proprietà intellettuale
 
-Il codice Flutter dell'app non è pubblicato in questo repository. Questo spazio pubblico contiene la **presentazione del progetto, demo e documentazione**. Il sorgente applicativo sarà conservato separatamente in forma privata.
+Questo repository è una **vetrina pubblica**: raccoglie descrizione, risorse dimostrative e documentazione del progetto. **Il codice completo dell'applicazione Flutter non viene distribuito qui** e deve rimanere in un repository privato separato.
 
-Le immagini del concept non sono prove di funzioni hardware implementate. Eventuali marchi di terze parti appartengono ai rispettivi titolari.
+Una demo nel browser può esporre HTML, CSS, JavaScript e altri asset inviati al client: non pubblicare in una demo web algoritmi o segreti che si intendono proteggere. Prima di ogni pubblicazione controllare anche cronologia Git, file `.env`, token, dati personali, log, percorsi locali e asset con licenze di terzi.
+
+La presenza pubblica di questo README **non concede automaticamente una licenza d'uso sul codice non pubblicato**. Valutare separatamente la licenza dei materiali pubblici e rispettare le licenze delle dipendenze e dei contenuti di terzi.
+
+## ⚖️ Marchi e indipendenza
+
+**Headset Studio è un progetto personale indipendente, non ufficiale e non affiliato, approvato o sponsorizzato da Marshall Group.** Marshall e Major III sono citati esclusivamente per identificare il dispositivo impiegato nei test. I marchi appartengono ai rispettivi titolari.
+
+## 📣 Prima di condividere su LinkedIn
+
+- [ ] Aprire la pagina demo in una finestra privata e verificare link, video e immagini.
+- [ ] Assicurarsi che le funzioni definite *testate* siano davvero state provate nella build mostrata.
+- [ ] Distinguere la fotografia reale dai concept o dalle immagini promozionali.
+- [ ] Controllare che nelle immagini non compaiano credenziali, dati o dettagli riservati.
+- [ ] Evitare di chiamare *download* o *app installabile* una demo che è soltanto una presentazione web.
+- [ ] Verificare che il repository applicativo completo rimanga privato.
 
 ---
 
-<div align="center">
-<sub>© 2026 Giovanni Del Gaudio · Headset Studio — progetto personale in sviluppo</sub>
-</div>
+<div align="center"><sub>© 2026 Giovanni Del Gaudio · Headset Studio · Progetto personale in sviluppo</sub></div>
