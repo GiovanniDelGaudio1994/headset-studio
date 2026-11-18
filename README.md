@@ -76,9 +76,17 @@ I video pubblicati nel sito mostrano una **versione precedente dell'interfaccia*
 - [ ] Valutare una versione Windows
 - [ ] Preparare packaging e distribuzione soltanto dopo test e revisione di permessi e licenze
 
+## 💻 Codice Flutter consultabile
+
+Per permettere a recruiter e sviluppatori di valutare codice concreto, è disponibile un **[prototipo UI Flutter indipendente](examples/early-ui/README.md)**: include una dashboard Material 3, stato immutabile, gestione di connessione simulata, controllo volume dimostrativo e layout adattabile.
+
+📁 **[Esplora i sorgenti Dart](examples/early-ui/lib/main.dart)**
+
+**Chiarezza sulla provenienza:** si tratta di una ricostruzione didattica di un'interfaccia iniziale, non dell'archivio di una vecchia release. Lo stato delle cuffie e il volume sono simulati; il sample non legge dati Bluetooth né modifica il volume di macOS. Le funzioni native testate nei prototipi privati non sono incluse in questo codice.
+
 ## 🔒 Disponibilità del codice e proprietà intellettuale
 
-Questo repository è una **vetrina pubblica**: raccoglie descrizione, risorse dimostrative e documentazione del progetto. **Il codice completo dell'applicazione Flutter non viene distribuito qui** e deve rimanere in un repository privato separato.
+Questo repository è una **vetrina pubblica**: raccoglie descrizione, risorse dimostrative, documentazione e un **esempio Flutter autonomo** consultabile. **Il codice completo dell'applicazione Flutter non viene distribuito qui** e rimane separato.
 
 Una demo nel browser può esporre HTML, CSS, JavaScript e altri asset inviati al client: non pubblicare in una demo web algoritmi o segreti che si intendono proteggere. Prima di ogni pubblicazione controllare anche cronologia Git, file `.env`, token, dati personali, log, percorsi locali e asset con licenze di terzi.
 
