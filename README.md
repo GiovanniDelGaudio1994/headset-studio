@@ -6,7 +6,7 @@
 
 **Flutter · Dart · macOS · Bluetooth · Desktop UI**
 
-[🌐 Demo, video e concept](https://www.giovannidelgaudio.it/headset-studio-demo/) · [💼 Portfolio](https://www.giovannidelgaudio.it/) · [📋 Roadmap](docs/RESTYLING.md)
+[🌐 Demo, video e concept](https://www.giovannidelgaudio.it/headset-studio-demo/) · [💼 Portfolio](https://www.giovannidelgaudio.it/)
 
 <img src="https://raw.githubusercontent.com/GiovanniDelGaudio1994/giovanni-portfolio/main/portfolio/assets/projects/headset-studio-liquid-glass.webp" width="780" alt="Concept grafico Liquid Glass di Headset Studio" />
 
