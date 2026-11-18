@@ -84,6 +84,15 @@ Per permettere a recruiter e sviluppatori di valutare codice concreto, è dispon
 
 **Chiarezza sulla provenienza:** si tratta di una ricostruzione didattica di un'interfaccia iniziale, non dell'archivio di una vecchia release. Lo stato delle cuffie e il volume sono simulati; il sample non legge dati Bluetooth né modifica il volume di macOS. Le funzioni native testate nei prototipi privati non sono incluse in questo codice.
 
+### 🔌 Integrazione nativa macOS: Swift + Flutter
+
+È disponibile anche un **[esempio di lettura Bluetooth macOS](examples/macos-bluetooth/README.md)**: un `MethodChannel` Dart richiama Swift e `IOBluetooth` per ottenere i nomi dei dispositivi associati e il relativo stato di connessione, senza inviare indirizzi hardware.
+
+- [Service Dart](examples/macos-bluetooth/lib/macos_bluetooth_service.dart)
+- [Implementazione Swift](examples/macos-bluetooth/macos/Runner/MainFlutterWindow.swift)
+
+**Nota:** è un esempio tecnico scritto successivamente, non un sorgente recuperato da una vecchia release; non è stato ancora collaudato sul Mac e non costituisce un'app Flutter completa eseguibile dalla cartella. Non implementa la scansione dei dispositivi vicini, né controllo audio o connessione attiva.
+
 ## 🔒 Disponibilità del codice e proprietà intellettuale
 
 Questo repository è una **vetrina pubblica**: raccoglie descrizione, risorse dimostrative, documentazione e un **esempio Flutter autonomo** consultabile. **Il codice completo dell'applicazione Flutter non viene distribuito qui** e rimane separato.
