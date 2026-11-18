@@ -76,6 +76,12 @@ I video pubblicati nel sito mostrano una **versione precedente dell'interfaccia*
 - [ ] Valutare una versione Windows
 - [ ] Preparare packaging e distribuzione soltanto dopo test e revisione di permessi e licenze
 
+## 🧩 Sorgenti originali — v0.2.1
+
+**[Esplora i file reali della v0.2.1](source/v0.2.1/README.md)**, estratti dall'archivio originale del progetto: [rilevamento Bluetooth e batteria](source/v0.2.1/lib/services/headphone_service.dart), [volume di sistema macOS](source/v0.2.1/lib/services/mac_audio_service.dart) e [test Dart](source/v0.2.1/test/headphone_service_test.dart).
+
+Sono sorgenti autentici della build 0.2.1, **non una ricostruzione**. Al momento è pubblicato un **estratto tecnico**, non la distribuzione completa: la dashboard 3D, gli asset PNG e lo script di installazione non sono inclusi, quindi questa cartella non è un'app eseguibile. I prototipi dimostrativi nella cartella `examples/` restano distinti dai sorgenti originali.
+
 ## 💻 Codice Flutter consultabile
 
 Per permettere a recruiter e sviluppatori di valutare codice concreto, è disponibile un **[prototipo UI Flutter indipendente](examples/early-ui/README.md)**: include una dashboard Material 3, stato immutabile, gestione di connessione simulata, controllo volume dimostrativo e layout adattabile.
