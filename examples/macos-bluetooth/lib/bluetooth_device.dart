@@ -4,7 +4,7 @@ class BluetoothDeviceSnapshot {
     required this.name,
     required this.connected,
   });
-
+//QUA SEMBRA TUTTO OK
   final String name;
   final bool connected;
 
