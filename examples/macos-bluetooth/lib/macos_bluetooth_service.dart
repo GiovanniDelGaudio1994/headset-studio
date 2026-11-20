@@ -5,6 +5,7 @@ import 'bluetooth_device.dart';
 /// Calls a read-only native macOS Bluetooth endpoint.
 ///
 /// It intentionally does not pair, connect, disconnect or change audio routes.
+///La sys call spesso mi disconnette (ricordami sempre di controllare )
 class MacosBluetoothService {
   const MacosBluetoothService();
 
